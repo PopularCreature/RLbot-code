@@ -74,7 +74,7 @@ class MyBot(BaseAgent):
 
     def begin_front_flip(self, packet):
         # Send some quickchat just for fun
-        self.send_quick_chat(team_only=False, quick_chat=QuickChatSelection.Information_IGotIt)
+   
 
         # Do a front flip. We will be committed to this for a few seconds and the bot will ignore other
         # logic during that time because we are setting the active_sequence.
